@@ -1,0 +1,5 @@
+#!/bin/sh
+# correct - Fix spelling and grammar errors in text using Claude
+llm "Fix spelling, grammar, and punctuation errors in this text. Output ONLY the corrected text, nothing else:
+
+$(cat)"
