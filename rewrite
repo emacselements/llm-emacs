@@ -1,0 +1,4 @@
+#!/bin/sh
+# rewrite - Use LLM to improve/rewrite selected text
+# Usage in Sam: select text, then |rewrite
+llm "Rewrite this text more clearly. Output only the rewritten text, nothing else: $(cat)"

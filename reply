@@ -1,0 +1,17 @@
+#!/bin/sh
+# rply - Write a reply to selected text (email/WhatsApp) using LLM
+# Usage in Sam: select text, then |rply
+llm "Write a short, kind reply to the following message.
+Output only the reply text, nothing else.
+Don't add a subject line.
+Keep it concise, factual, and natural.
+Don't be effusive or gushy.
+Don't commit to demands.
+Use British spelling.
+Match the formality level of the original message.
+End the reply with an appropriate sign-off based on the tone:
+- For most messages use: Kind regards, Bob Smith
+- For warm or friendly messages use: Love Bob
+- For formal or matter-of-fact messages use: Regards, Bob Smith
+
+$(cat)"
